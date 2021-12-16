@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 50px;
+    background-color: #a25ce4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 98vh;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: 'Helvetica';
+}
+
+
+.caja1{
+    border-top: 5px dotted black;
+    border-right: 5px dotted black;
+    border-bottom: 5px dotted black;
+    border-left: 5px dotted black;
+    background-color:rgb(108, 255, 235) ;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+   }
+    
+   .caja2{
+    border-top: 5px dotted black;
+    border-right: 5px dotted black;
+    border-bottom: 5px dotted black;
+    border-left: 5px dotted black;
+    background-color: rgb(108, 255, 235);
+    padding-top: 10px;
+    padding-right: 20px 10px;
+    padding-left: px;
+   }
+
+   .flex-child{
+    flex: 1 0 40%;
+    width: 45%;
+    float: left;}
